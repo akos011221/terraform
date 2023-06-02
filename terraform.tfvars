@@ -1,0 +1,10 @@
+subscription        = "az-sub-01"
+resource_group_name = "az-netw-rg-01"
+location            = "westeurope"
+env                 = "PRD"
+vnet_name           = "az-vnet-01"
+address_space       = ["10.110.1.0/26"]
+subnet_names        = ["az-vnet-01-sub-aks", "az-vnet-01-sub-apps"]
+subnet_cidrs        = ["10.110.1.0/27", "10.110.1.32/27"]
+vdc_prefix          = "10.2.0"
+vdc_mask            = "/24"
